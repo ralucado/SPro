@@ -40,7 +40,7 @@ AUTOMAKE_OPTIONS = 1.4 foreign
 
 ACLOCAL_AMFLAGS = -I auxdir
 
-LDADD    = -lm -L. -lspro -lm @sphere_lib@
+LDADD    = -L. -lspro -lm @sphere_lib@
 INCLUDES = @sphere_include@
 
 include_HEADERS = spro.h sptables.h
